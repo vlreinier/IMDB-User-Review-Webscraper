@@ -25,7 +25,7 @@ public class ImdbScraperTest {
 
         // define api key for using OMDB to find corresponding IMDB movie id
         // you can also choose to manually get the movie id from the IMDB url, to skip the OMDB part
-        String omdb_apikey = "7a1b6888";
+        String omdb_apikey = "your api key goes here";
         // we have to obtain the IMDB movie ID for a url search on IMDB
         // this part can be skipped if movie id is manually found
         Omdb omdb = new Omdb(movie, omdb_apikey);
