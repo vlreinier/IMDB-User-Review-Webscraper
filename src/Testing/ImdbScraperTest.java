@@ -19,8 +19,7 @@ public class ImdbScraperTest {
         String movie = "rambo";
         int limit = 1000;
         // define path for CSV file you want reviews to be written
-        String path = "C:\\Users\\Reinier\\IdeaProjects\\PolarityAnalysis\\src\\TextSent\\Datasets\\" + movie.replaceAll("[^a-zA-Z0-9'\\-]+", "_")
-                .replace(" ", "_") + ".csv";
+        String path = "your filepath goes here"
 
 
         // define api key for using OMDB to find corresponding IMDB movie id
